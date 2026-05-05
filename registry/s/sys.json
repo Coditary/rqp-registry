@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "name": "sys",
+  "version": "1.2.0",
+  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "description": "Unified system package bridge",
+  "role": "package-manager",
+  "capabilities": [],
+  "ecosystemScopes": [],
+  "writeScopes": [],
+  "networkScopes": [],
+  "privilegeLevel": "none",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}

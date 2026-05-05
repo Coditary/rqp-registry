@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "name": "java",
+  "version": "1.0.0",
+  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "description": "ReqPack Java Proxy Manager",
+  "role": "proxy",
+  "capabilities": [],
+  "ecosystemScopes": [],
+  "writeScopes": [],
+  "networkScopes": [],
+  "privilegeLevel": "none",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": [],
+  "proxyTargets": ["maven"]
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "name": "example",
+  "version": "1.0.0",
+  "source": "git+https://github.com/example/reqpack-example-plugin.git@v1.0.0",
+  "description": "Short plugin description",
+  "role": "package-manager",
+  "capabilities": [],
+  "ecosystemScopes": [],
+  "writeScopes": [],
+  "networkScopes": [],
+  "privilegeLevel": "none",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "name": "dnf",
+  "version": "2.0.0",
+  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "description": "Fedora DNF Manager",
+  "role": "package-manager",
+  "capabilities": [],
+  "ecosystemScopes": ["rpm"],
+  "writeScopes": [],
+  "networkScopes": [],
+  "privilegeLevel": "none",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}
