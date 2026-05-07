@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "maven",
   "version": "2.0.0",
-  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "source": "git+https://github.com/Matographo/maven.git?ref=main",
   "description": "Apache Maven Manager",
   "role": "package-manager",
   "capabilities": [],

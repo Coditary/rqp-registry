@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "dnf",
   "version": "2.0.0",
-  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "source": "git+https://github.com/Matographo/dnf.git?ref=main",
   "description": "Fedora DNF Manager",
   "role": "package-manager",
   "capabilities": [],
