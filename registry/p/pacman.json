@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "name": "pacman",
+  "version": "0.1.0",
+  "source": "git+https://github.com/Coditary/rqp-plugin-pacman.git@main",
+  "description": "ReqPack wrapper plugin for Arch Linux pacman repositories and local package files",
+  "role": "package-manager",
+  "capabilities": [],
+  "ecosystemScopes": ["pacman"],
+  "writeScopes": [],
+  "networkScopes": [],
+  "privilegeLevel": "none",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}

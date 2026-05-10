@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "name": "homebrew",
+  "version": "0.2.0",
+  "source": "git+https://github.com/Coditary/rqp-plugin-homebrew.git@main",
+  "description": "ReqPack Lua wrapper plugin for Homebrew formulae and casks on macOS and Linux",
+  "role": "package-manager",
+  "capabilities": [],
+  "ecosystemScopes": ["homebrew"],
+  "writeScopes": [],
+  "networkScopes": [],
+  "privilegeLevel": "none",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}

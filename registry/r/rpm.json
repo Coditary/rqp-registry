@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "name": "rpm",
+  "version": "0.1.0",
+  "source": "git+https://github.com/Coditary/rqp-plugin-rpm.git@main",
+  "description": "ReqPack wrapper for rpm with optional dnf/yum fallbacks",
+  "role": "package-manager",
+  "capabilities": [],
+  "ecosystemScopes": ["rpm"],
+  "writeScopes": [],
+  "networkScopes": [],
+  "privilegeLevel": "none",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}

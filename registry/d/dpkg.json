@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "name": "dpkg",
+  "version": "1.0.0",
+  "source": "git+https://github.com/Coditary/rqp-plugin-dpkg.git@main",
+  "description": "ReqPack Lua wrapper plugin for Debian package management via dpkg and apt tools",
+  "role": "package-manager",
+  "capabilities": [],
+  "ecosystemScopes": ["deb"],
+  "writeScopes": [],
+  "networkScopes": [],
+  "privilegeLevel": "none",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "name": "nix",
+  "version": "0.1.0",
+  "source": "git+https://github.com/Coditary/rqp-plugin-nix.git@main",
+  "description": "ReqPack Lua plugin that wraps the native Nix package manager through nix profile and nix search.",
+  "role": "package-manager",
+  "capabilities": [],
+  "ecosystemScopes": ["nix"],
+  "writeScopes": [],
+  "networkScopes": [],
+  "privilegeLevel": "none",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}

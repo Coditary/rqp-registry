@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "name": "flatpak",
+  "version": "0.1.0",
+  "source": "git+https://github.com/Coditary/rqp-plugin-flatpak.git@main",
+  "description": "Thin ReqPack wrapper bundle for managing Flatpak apps and runtimes",
+  "role": "package-manager",
+  "capabilities": [],
+  "ecosystemScopes": ["flatpak"],
+  "writeScopes": [],
+  "networkScopes": [],
+  "privilegeLevel": "none",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}
