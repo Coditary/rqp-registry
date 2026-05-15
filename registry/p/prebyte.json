@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "name": "prebyte",
+  "version": "1.0.3",
+  "source": "https://github.com/Coditary/Prebyte/releases/latest/download/index.json",
+  "description": "Prebyte templating CLI packaged as ReqPack artifact.",
+  "role": "package",
+  "targetSystem": "rqp",
+  "capabilities": [],
+  "ecosystemScopes": ["rqp"],
+  "writeScopes": [],
+  "networkScopes": [],
+  "privilegeLevel": "none",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}

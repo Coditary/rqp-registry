@@ -1,8 +1,8 @@
 # rqp-registry
 
-Main plugin registry for ReqPack / `rqp`.
+Main registry for ReqPack / `rqp`.
 
-This repository stores versioned JSON metadata for main plugins. ReqPack reads these files, syncs filtered changes into LMDB, and only fetches plugin payloads lazily when needed.
+This repository stores versioned JSON metadata for main plugins and registry-backed package entries. ReqPack reads these files, syncs filtered changes into LMDB, and only fetches plugin payloads lazily when needed.
 
 ## Layout
 
@@ -12,16 +12,17 @@ This repository stores versioned JSON metadata for main plugins. ReqPack reads t
 - `CONTRIBUTION.md` contribution workflow
 - `LICENCE` repository licence
 
-## First plugins
+## First entries
 
 - `dnf`
 - `maven`
 - `java`
+- `prebyte`
 - `sys`
 
 ## Registry shape
 
-One file per main plugin:
+One file per main entry:
 
 - `registry/d/dnf.json`
 - `registry/m/maven.json`
