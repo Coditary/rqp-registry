@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "trivy",
   "version": "0.1.0",
-  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "source": "git+https://github.com/Coditary/rqp-plugin-trivy.git@main",
   "description": "ReqPack security-provider plugin for importing Trivy vulnerability database advisories into ReqPack shared vulnerability indexes",
   "role": "security-provider",
   "capabilities": ["sync"],

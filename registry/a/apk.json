@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "apk",
   "version": "0.1.0",
-  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "source": "git+https://github.com/Coditary/rqp-plugin-apk.git@main",
   "description": "ReqPack Lua wrapper plugin for Alpine apk packages and local .apk artifacts",
   "role": "package-manager",
   "capabilities": ["exec", "network"],

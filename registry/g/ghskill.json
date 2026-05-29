@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "ghskill",
   "version": "0.1.0",
-  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "source": "git+https://github.com/Coditary/rqp-plugin-ghskill.git@main",
   "description": "ReqPack Lua wrapper plugin for GitHub CLI gh skill installs with shared cache projection metadata",
   "role": "package-manager",
   "capabilities": [],

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "yay",
   "version": "0.1.0",
-  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "source": "git+https://github.com/Coditary/rqp-plugin-yay.git@main",
   "description": "ReqPack Lua wrapper plugin for yay, the Arch Linux repo and AUR helper",
   "role": "package-manager",
   "capabilities": ["exec", "network"],

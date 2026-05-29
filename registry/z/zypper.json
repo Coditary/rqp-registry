@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "zypper",
   "version": "0.1.0",
-  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "source": "git+https://github.com/Coditary/rqp-plugin-zypper.git@main",
   "description": "Thin ReqPack Lua plugin for the Zypper package manager",
   "role": "package-manager",
   "capabilities": [],

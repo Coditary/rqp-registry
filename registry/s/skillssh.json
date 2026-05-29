@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "skillssh",
   "version": "0.1.0",
-  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "source": "git+https://github.com/Coditary/rqp-plugin-skillssh.git@main",
   "description": "ReqPack Lua wrapper plugin for skills.sh CLI repo and skill installs with shared cache projection metadata",
   "role": "package-manager",
   "capabilities": [],

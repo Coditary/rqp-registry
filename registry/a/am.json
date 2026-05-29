@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "am",
   "version": "0.1.0",
-  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "source": "git+https://github.com/Coditary/rqp-plugin-am.git@main",
   "description": "ReqPack Lua wrapper plugin for rootless AppMan AppImage and portable app management",
   "role": "package-manager",
   "capabilities": ["exec", "network"],
