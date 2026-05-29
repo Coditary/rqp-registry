@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "name": "yay",
+  "version": "0.1.0",
+  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "description": "ReqPack Lua wrapper plugin for yay, the Arch Linux repo and AUR helper",
+  "role": "package-manager",
+  "capabilities": ["exec", "network"],
+  "ecosystemScopes": ["alpm", "arch", "aur"],
+  "writeScopes": [
+    { "kind": "system-package-paths", "value": "" },
+    { "kind": "user-home-subpath", "value": ".config/yay" },
+    { "kind": "user-home-subpath", "value": ".cache/yay" }
+  ],
+  "networkScopes": [
+    { "scheme": "https" }
+  ],
+  "privilegeLevel": "sudo",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}

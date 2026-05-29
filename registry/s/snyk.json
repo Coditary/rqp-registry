@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "name": "snyk",
+  "version": "0.1.0",
+  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "description": "ReqPack security-provider plugin for importing Snyk export findings into ReqPack shared vulnerability indexes",
+  "role": "security-provider",
+  "capabilities": ["sync"],
+  "ecosystemScopes": ["maven"],
+  "writeScopes": [],
+  "networkScopes": [
+    { "host": "api.snyk.io", "scheme": "https", "pathPrefix": "/rest/" },
+    { "host": "api.eu.snyk.io", "scheme": "https", "pathPrefix": "/rest/" },
+    { "host": "api.us.snyk.io", "scheme": "https", "pathPrefix": "/rest/" },
+    { "host": "api.au.snyk.io", "scheme": "https", "pathPrefix": "/rest/" }
+  ],
+  "privilegeLevel": "none",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}

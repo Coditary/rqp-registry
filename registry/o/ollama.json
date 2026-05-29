@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "name": "ollama",
+  "version": "0.1.0",
+  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "description": "ReqPack Lua wrapper plugin for Ollama app installation and local model management",
+  "role": "package-manager",
+  "capabilities": [],
+  "ecosystemScopes": ["ollama"],
+  "writeScopes": [],
+  "networkScopes": [],
+  "privilegeLevel": "sudo",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}

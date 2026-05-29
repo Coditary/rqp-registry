@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "name": "am",
+  "version": "0.1.0",
+  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "description": "ReqPack Lua wrapper plugin for rootless AppMan AppImage and portable app management",
+  "role": "package-manager",
+  "capabilities": ["exec", "network"],
+  "ecosystemScopes": ["appimage", "portable-app"],
+  "writeScopes": [
+    { "kind": "reqpack-cache", "value": "" },
+    { "kind": "user-home-subpath", "value": ".config/appman" },
+    { "kind": "user-home-subpath", "value": ".cache/appman" },
+    { "kind": "user-home-subpath", "value": ".local/share/AM" },
+    { "kind": "user-home-subpath", "value": ".local/share/applications" },
+    { "kind": "user-home-subpath", "value": ".local/share/icons" },
+    { "kind": "user-home-subpath", "value": ".local/share/bash-completion" },
+    { "kind": "user-home-subpath", "value": ".config/fish/completions" },
+    { "kind": "user-home-subpath", "value": ".local/bin" },
+    { "kind": "user-home-subpath", "value": "Applications" },
+    { "kind": "user-home-subpath", "value": ".local/am-sandboxes" }
+  ],
+  "networkScopes": [
+    { "scheme": "https" }
+  ],
+  "privilegeLevel": "none",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}

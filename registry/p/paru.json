@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "paru",
+  "version": "0.1.0",
+  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "description": "ReqPack Lua wrapper plugin for paru, the Arch Linux repo and AUR helper",
+  "role": "package-manager",
+  "capabilities": ["exec", "network"],
+  "ecosystemScopes": ["alpm", "arch", "aur"],
+  "writeScopes": [
+    { "kind": "system-package-paths", "value": "" },
+    { "kind": "user-home-subpath", "value": ".config/paru" },
+    { "kind": "user-home-subpath", "value": ".cache/paru" },
+    { "kind": "user-home-subpath", "value": ".local/state/paru" }
+  ],
+  "networkScopes": [
+    { "scheme": "https" }
+  ],
+  "privilegeLevel": "sudo",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}

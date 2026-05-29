@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "name": "apk",
+  "version": "0.1.0",
+  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "description": "ReqPack Lua wrapper plugin for Alpine apk packages and local .apk artifacts",
+  "role": "package-manager",
+  "capabilities": ["exec", "network"],
+  "ecosystemScopes": ["apk", "alpine"],
+  "writeScopes": [
+    { "kind": "system-package-paths", "value": "" }
+  ],
+  "networkScopes": [
+    { "scheme": "https" },
+    { "scheme": "http" }
+  ],
+  "privilegeLevel": "sudo",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}

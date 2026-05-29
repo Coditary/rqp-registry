@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "name": "portage",
+  "version": "0.1.0",
+  "source": "git+https://github.com/Coditary/ReqPack.git@main",
+  "description": "ReqPack Lua wrapper plugin for Gentoo Portage packages and local Portage binary package artifacts",
+  "role": "package-manager",
+  "capabilities": ["exec", "network"],
+  "ecosystemScopes": ["portage", "gentoo", "ebuild"],
+  "writeScopes": [
+    { "kind": "system-package-paths", "value": "" }
+  ],
+  "networkScopes": [],
+  "privilegeLevel": "sudo",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}
