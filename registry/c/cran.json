@@ -1,0 +1,18 @@
+{
+ "schemaVersion": 1,
+ "name": "cran",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-cran.git@main",
+ "description": "ReqPack Lua wrapper plugin for CRAN packages via Rscript and base R package-management functions",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "cran"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

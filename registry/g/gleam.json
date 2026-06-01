@@ -1,0 +1,32 @@
+{
+ "schemaVersion": 1,
+ "name": "gleam",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-gleam.git@main",
+ "description": "ReqPack Lua wrapper plugin for Gleam project dependencies via the Gleam CLI and Hex package API",
+ "role": "package-manager",
+ "capabilities": [
+  "dependency-install",
+  "dependency-remove",
+  "dependency-update",
+  "dependency-query",
+  "project-manifest-edit"
+ ],
+ "ecosystemScopes": [
+  "gleam",
+  "hexpm"
+ ],
+ "writeScopes": [
+  "user-home-subpath:.cache/reqpack/gleam",
+  "project-file:gleam.toml",
+  "project-file:manifest.toml",
+  "project-subpath:build"
+ ],
+ "networkScopes": [
+  "hex.pm"
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

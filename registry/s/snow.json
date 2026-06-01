@@ -1,0 +1,18 @@
+{
+ "schemaVersion": 1,
+ "name": "snow",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-snow.git@main",
+ "description": "ReqPack Lua wrapper plugin for Scheme packages managed by Snow or snow-chibi",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": [
+  "snow-chibi"
+ ]
+}

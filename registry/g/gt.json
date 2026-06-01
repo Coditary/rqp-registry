@@ -1,0 +1,32 @@
+{
+ "schemaVersion": 1,
+ "name": "gt",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-gt.git@main",
+ "description": "ReqPack Lua wrapper plugin for installing and managing GenomeTools gt releases from upstream source tarballs",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "download",
+  "build"
+ ],
+ "ecosystemScopes": [
+  "genometools",
+  "gtscript",
+  "bioinformatics"
+ ],
+ "writeScopes": [
+  "user-home-subpath:.reqpack-data/gt"
+ ],
+ "networkScopes": [
+  "api.github.com",
+  "github.com",
+  "codeload.github.com"
+ ],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": [
+  "genometools"
+ ]
+}

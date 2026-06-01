@@ -1,0 +1,27 @@
+{
+ "schemaVersion": 1,
+ "name": "zplug",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-zplug.git@main",
+ "description": "ReqPack Lua wrapper plugin for the zplug zsh plugin manager",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "zplug",
+  "zsh"
+ ],
+ "writeScopes": [
+  {
+   "kind": "user-home-subpath",
+   "value": ".zplug"
+  }
+ ],
+ "networkScopes": [],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

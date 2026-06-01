@@ -1,0 +1,22 @@
+{
+ "schemaVersion": 1,
+ "name": "antigen",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-antigen.git@main",
+ "description": "ReqPack Lua wrapper plugin for Antigen zsh bundle clones managed in a shared cache",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "zsh-plugins"
+ ],
+ "writeScopes": [
+  "user-home-subpath:~/.reqpack-data/antigen"
+ ],
+ "networkScopes": [
+  "github.com"
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

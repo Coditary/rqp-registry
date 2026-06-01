@@ -1,0 +1,20 @@
+{
+ "schemaVersion": 1,
+ "name": "gradle",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-gradle.git@main",
+ "description": "ReqPack Lua wrapper plugin for Gradle synthetic dependency state and shared cache warming",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "gradle",
+  "maven",
+  "jvm"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

@@ -1,0 +1,19 @@
+{
+ "schemaVersion": 1,
+ "name": "cpan",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-cpan.git@main",
+ "description": "ReqPack Lua wrapper plugin for Perl cpan using a plugin-owned CPAN home and local::lib install root",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "cpan",
+  "perl"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

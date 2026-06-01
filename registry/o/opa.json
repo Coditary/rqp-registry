@@ -1,0 +1,16 @@
+{
+ "schemaVersion": 1,
+ "name": "opa",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-opa.git@main",
+ "description": "ReqPack Lua wrapper plugin for local MLstate Opa compiler targets through the opa command line",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

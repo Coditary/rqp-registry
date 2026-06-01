@@ -1,0 +1,18 @@
+{
+ "schemaVersion": 1,
+ "name": "mmc",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-mmc.git@main",
+ "description": "ReqPack Lua wrapper plugin for tracked local Mercury library installs via the mmc compiler",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": [
+  "mercury"
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "schemaVersion": 1,
+ "name": "hardhat",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-hardhat.git@main",
+ "description": "ReqPack Lua wrapper plugin for isolated Hardhat CLI runtime installs via npm metadata and ReqPack-scoped cache roots",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "hardhat",
+  "solidity",
+  "npm",
+  "node"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

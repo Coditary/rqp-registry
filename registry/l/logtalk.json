@@ -1,0 +1,26 @@
+{
+ "schemaVersion": 1,
+ "name": "logtalk",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-logtalk.git@main",
+ "description": "ReqPack Lua wrapper plugin for Logtalk packs via the Logtalk packs tool",
+ "role": "package-manager",
+ "capabilities": [
+  "exec"
+ ],
+ "ecosystemScopes": [
+  "logtalk",
+  "prolog"
+ ],
+ "writeScopes": [
+  "user-home-subpath:.reqpack-data/logtalk"
+ ],
+ "networkScopes": [
+  "github.com",
+  "logtalk.org"
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

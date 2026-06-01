@@ -1,0 +1,26 @@
+{
+ "schemaVersion": 1,
+ "name": "flix",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-flix.git@main",
+ "description": "ReqPack Lua wrapper plugin for Flix synthetic-project dependency management and GitHub package discovery",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "flix",
+  "github",
+  "jvm"
+ ],
+ "writeScopes": [],
+ "networkScopes": [
+  "https://api.github.com/search/repositories",
+  "https://api.github.com/repos"
+ ],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

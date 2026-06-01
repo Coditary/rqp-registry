@@ -1,0 +1,23 @@
+{
+ "schemaVersion": 1,
+ "name": "quarks",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-quarks.git@main",
+ "description": "ReqPack Lua wrapper plugin for SuperCollider Quarks via sclang",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "supercollider",
+  "quarks"
+ ],
+ "writeScopes": [],
+ "networkScopes": [
+  "github.com"
+ ],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": [
+  "supercollider-quarks"
+ ]
+}

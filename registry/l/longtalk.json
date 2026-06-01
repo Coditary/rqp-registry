@@ -1,0 +1,26 @@
+{
+ "schemaVersion": 1,
+ "name": "longtalk",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-longtalk.git@main",
+ "description": "ReqPack Lua wrapper plugin for Logtalk packs via Logtalk integration scripts",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "logtalk",
+  "prolog"
+ ],
+ "writeScopes": [],
+ "networkScopes": [
+  "github.com",
+  "gitlab.com",
+  "bitbucket.org",
+  "logtalk.org"
+ ],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": [
+  "logtalk"
+ ]
+}

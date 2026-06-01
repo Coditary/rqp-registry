@@ -1,0 +1,18 @@
+{
+ "schemaVersion": 1,
+ "name": "hbmk2",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-hbmk2.git@main",
+ "description": "ReqPack Lua wrapper plugin for tracked Harbour .hbc package references via hbmk2",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": [
+  "harbour"
+ ]
+}

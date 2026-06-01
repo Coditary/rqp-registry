@@ -1,0 +1,21 @@
+{
+ "schemaVersion": 1,
+ "name": "qt",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-qt.git@main",
+ "description": "ReqPack Lua wrapper plugin for Qt components via Qt Installer Framework command line tools",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "qt",
+  "qtifw"
+ ],
+ "writeScopes": [],
+ "networkScopes": [
+  "download.qt.io"
+ ],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

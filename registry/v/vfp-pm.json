@@ -1,0 +1,20 @@
+{
+ "schemaVersion": 1,
+ "name": "vfp-pm",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-vfp-pm.git@main",
+ "description": "ReqPack Lua wrapper plugin for Visual FoxPro packages using FoxGet-compatible metadata and a configurable VFP automation bridge",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "foxpro",
+  "vfp",
+  "vfpx"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

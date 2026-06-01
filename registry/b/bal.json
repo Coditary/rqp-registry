@@ -1,0 +1,22 @@
+{
+ "schemaVersion": 1,
+ "name": "bal",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-bal.git@main",
+ "description": "ReqPack Lua wrapper plugin for Ballerina packages via the bal CLI",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "ballerina"
+ ],
+ "writeScopes": [
+  "user-home-subpath:.ballerina/repositories"
+ ],
+ "networkScopes": [
+  "central.ballerina.io"
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

@@ -1,0 +1,31 @@
+{
+ "schemaVersion": 1,
+ "name": "tads3",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-tads3.git@main",
+ "description": "ReqPack Lua wrapper plugin for TADS 3 libraries from IF Archive",
+ "role": "package-manager",
+ "capabilities": [
+  "package-install",
+  "package-remove",
+  "package-update",
+  "package-query"
+ ],
+ "ecosystemScopes": [
+  "tads3",
+  "interactive-fiction"
+ ],
+ "writeScopes": [
+  "user-home-subpath:.local/share/reqpack/tads3",
+  "user-home-subpath:.cache/reqpack/tads3"
+ ],
+ "networkScopes": [
+  "https://www.ifarchive.org/indexes/if-archive/programming/tads3/library/",
+  "https://www.ifarchive.org/indexes/if-archive/programming/tads3/library/contributions/",
+  "https://www.ifarchive.org/if-archive/programming/tads3/library/"
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "name": "poetry",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-poetry.git@main",
+ "description": "ReqPack Lua wrapper plugin for Poetry-managed Python project dependencies via the Poetry CLI",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "python",
+  "pypi",
+  "poetry"
+ ],
+ "writeScopes": [
+  {
+   "kind": "temp"
+  },
+  {
+   "kind": "user-home-subpath",
+   "value": ".cache/reqpack/poetry"
+  },
+  {
+   "kind": "user-home-subpath",
+   "value": ".config/pypoetry"
+  },
+  {
+   "kind": "user-home-subpath",
+   "value": ".local/share/pypoetry"
+  }
+ ],
+ "networkScopes": [
+  {
+   "host": "pypi.org",
+   "scheme": "https",
+   "pathPrefix": "/"
+  },
+  {
+   "host": "files.pythonhosted.org",
+   "scheme": "https",
+   "pathPrefix": "/"
+  }
+ ],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

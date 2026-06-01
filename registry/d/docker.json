@@ -1,13 +1,13 @@
 {
  "schemaVersion": 1,
- "name": "dnf",
- "version": "2.0.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-dnf.git@main",
- "description": "Fedora DNF Manager",
+ "name": "docker",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-docker.git@main",
+ "description": "Thin ReqPack wrapper bundle for managing Docker images through the Docker CLI",
  "role": "package-manager",
  "capabilities": [],
  "ecosystemScopes": [
-  "rpm"
+  "docker"
  ],
  "writeScopes": [],
  "networkScopes": [],

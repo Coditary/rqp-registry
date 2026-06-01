@@ -1,0 +1,19 @@
+{
+ "schemaVersion": 1,
+ "name": "zef",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-zef.git@main",
+ "description": "ReqPack Lua wrapper plugin for zef Raku distributions with shared managed cache paths",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "raku",
+  "zef"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

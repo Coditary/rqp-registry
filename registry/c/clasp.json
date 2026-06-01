@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "name": "clasp",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-clasp.git@main",
+ "description": "ReqPack Lua wrapper plugin for Google Apps Script project management via the clasp CLI",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "google-apps-script",
+  "google-drive"
+ ],
+ "writeScopes": [
+  {
+   "kind": "user-home-subpath",
+   "value": ".clasprc.json"
+  }
+ ],
+ "networkScopes": [
+  {
+   "scheme": "https",
+   "host": "script.google.com",
+   "pathPrefix": "/"
+  },
+  {
+   "scheme": "https",
+   "host": "script.googleapis.com",
+   "pathPrefix": "/"
+  },
+  {
+   "scheme": "https",
+   "host": "www.googleapis.com",
+   "pathPrefix": "/"
+  },
+  {
+   "scheme": "https",
+   "host": "oauth2.googleapis.com",
+   "pathPrefix": "/"
+  },
+  {
+   "scheme": "https",
+   "host": "accounts.google.com",
+   "pathPrefix": "/"
+  }
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

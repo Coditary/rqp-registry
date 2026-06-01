@@ -1,0 +1,16 @@
+{
+ "schemaVersion": 1,
+ "name": "opam",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-opam.git@main",
+ "description": "ReqPack Lua wrapper plugin for opam packages and local opam package sources",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

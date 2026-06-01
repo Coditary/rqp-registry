@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "name": "podman",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-podman.git@main",
+ "description": "ReqPack Lua wrapper plugin for Podman container image management via the Podman CLI",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "containers",
+  "oci",
+  "docker",
+  "podman"
+ ],
+ "writeScopes": [
+  {
+   "kind": "temp"
+  },
+  {
+   "kind": "user-home-subpath",
+   "value": ".local/share/containers"
+  },
+  {
+   "kind": "user-home-subpath",
+   "value": ".cache/containers"
+  },
+  {
+   "kind": "user-home-subpath",
+   "value": ".cache/reqpack/podman"
+  }
+ ],
+ "networkScopes": [
+  {
+   "host": "*",
+   "scheme": "https",
+   "pathPrefix": "/"
+  }
+ ],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

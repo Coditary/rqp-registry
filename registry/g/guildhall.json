@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "name": "guildhall",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-guildhall.git@main",
+ "description": "ReqPack Lua wrapper plugin for Guildhall package management via guild subcommands",
+ "role": "package-manager",
+ "capabilities": [
+  "package-install",
+  "package-remove",
+  "package-update",
+  "package-query"
+ ],
+ "ecosystemScopes": [
+  "guile",
+  "guildhall",
+  "scheme"
+ ],
+ "writeScopes": [
+  "user-home-subpath:.cache/reqpack/guildhall"
+ ],
+ "networkScopes": [
+  "configured-guildhall-repositories"
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

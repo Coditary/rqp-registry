@@ -1,13 +1,13 @@
 {
  "schemaVersion": 1,
- "name": "dnf",
- "version": "2.0.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-dnf.git@main",
- "description": "Fedora DNF Manager",
+ "name": "spm",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-spm.git@main",
+ "description": "ReqPack Lua wrapper plugin for Skill Package Manager skills via the spm CLI",
  "role": "package-manager",
  "capabilities": [],
  "ecosystemScopes": [
-  "rpm"
+  "skillpkg-registry"
  ],
  "writeScopes": [],
  "networkScopes": [],

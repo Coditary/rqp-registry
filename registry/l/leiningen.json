@@ -1,0 +1,31 @@
+{
+ "schemaVersion": 1,
+ "name": "leiningen",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-leiningen.git@main",
+ "description": "ReqPack Lua wrapper plugin for Leiningen search and local Maven repository artifact management",
+ "role": "package-manager",
+ "capabilities": [
+  "package-install",
+  "package-remove",
+  "package-query",
+  "local-project-install"
+ ],
+ "ecosystemScopes": [
+  "clojure",
+  "leiningen",
+  "maven"
+ ],
+ "writeScopes": [
+  "user-home-subpath:.m2/repository",
+  "user-home-subpath:.cache/reqpack/leiningen"
+ ],
+ "networkScopes": [
+  "search.maven.org",
+  "clojars.org"
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

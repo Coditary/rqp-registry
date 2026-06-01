@@ -1,0 +1,34 @@
+{
+ "schemaVersion": 1,
+ "name": "wasm-bindgen",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-wasm-bindgen.git@main",
+ "description": "ReqPack Lua wrapper plugin for wasm-bindgen-cli installation and cached local Wasm binding generation",
+ "role": "package-manager",
+ "capabilities": [
+  "exec"
+ ],
+ "ecosystemScopes": [
+  "rust",
+  "cargo",
+  "webassembly",
+  "wasm-bindgen"
+ ],
+ "writeScopes": [
+  {
+   "kind": "user-home-subpath",
+   "value": ".cargo"
+  },
+  {
+   "kind": "user-home-subpath",
+   "value": ".cache/reqpack/wasm-bindgen"
+  }
+ ],
+ "networkScopes": [],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": [
+  "wasm-bindgen-cli"
+ ]
+}

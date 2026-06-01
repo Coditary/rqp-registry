@@ -1,0 +1,19 @@
+{
+ "schemaVersion": 1,
+ "name": "luarocks",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-luarocks.git@main",
+ "description": "ReqPack Lua wrapper plugin for LuaRocks using a plugin-owned rocks tree and shared cache",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "luarocks",
+  "lua"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

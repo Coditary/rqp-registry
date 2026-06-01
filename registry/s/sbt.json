@@ -1,0 +1,20 @@
+{
+ "schemaVersion": 1,
+ "name": "sbt",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-sbt.git@main",
+ "description": "ReqPack Lua wrapper plugin for synthetic sbt dependency state and shared resolver caches",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "scala",
+  "jvm",
+  "maven"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

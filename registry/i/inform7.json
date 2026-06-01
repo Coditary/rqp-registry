@@ -1,0 +1,16 @@
+{
+ "schemaVersion": 1,
+ "name": "inform7",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-inform7.git@main",
+ "description": "ReqPack Lua wrapper plugin for Inform 7 extensions via the inbuild CLI",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

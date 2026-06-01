@@ -1,0 +1,23 @@
+{
+ "schemaVersion": 1,
+ "name": "composer",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-composer.git@main",
+ "description": "ReqPack Lua wrapper plugin for Composer global packages and Packagist queries",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "composer",
+  "packagist",
+  "php"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

@@ -1,0 +1,16 @@
+{
+ "schemaVersion": 1,
+ "name": "boss",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-boss.git@main",
+ "description": "ReqPack Lua wrapper plugin for Boss Delphi/Lazarus dependencies and cache-aware project queries",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

@@ -1,0 +1,16 @@
+{
+ "schemaVersion": 1,
+ "name": "rtx",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-rtx.git@main",
+ "description": "ReqPack Lua wrapper plugin for rtx-cli and its current mise successor",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

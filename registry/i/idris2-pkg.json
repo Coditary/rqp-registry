@@ -1,0 +1,19 @@
+{
+ "schemaVersion": 1,
+ "name": "idris2-pkg",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-idris2-pkg.git@main",
+ "description": "ReqPack Lua wrapper plugin for Idris2 libraries via the pack CLI from idris2-pack",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": [
+  "idris2-pack",
+  "pack"
+ ]
+}

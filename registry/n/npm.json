@@ -1,0 +1,33 @@
+{
+ "schemaVersion": 1,
+ "name": "npm",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-npm.git@main",
+ "description": "ReqPack Lua wrapper plugin for globally managed npm packages via the npm CLI",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "npm",
+  "node",
+  "javascript",
+  "typescript"
+ ],
+ "writeScopes": [
+  "user-home-subpath:.local",
+  "user-home-subpath:.npm",
+  "user-home-subpath:.config",
+  "user-home-subpath:.cache",
+  "user-home-subpath:.local/share",
+  "user-home-subpath:.local/state"
+ ],
+ "networkScopes": [
+  "registry.npmjs.org"
+ ],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

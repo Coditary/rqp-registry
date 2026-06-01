@@ -1,0 +1,25 @@
+{
+ "schemaVersion": 1,
+ "name": "elan",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-elan.git@main",
+ "description": "ReqPack Lua wrapper plugin for Lean toolchains managed through elan",
+ "role": "package-manager",
+ "capabilities": [
+  "exec"
+ ],
+ "ecosystemScopes": [
+  "lean"
+ ],
+ "writeScopes": [
+  {
+   "kind": "user-home-subpath",
+   "value": ".elan"
+  }
+ ],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

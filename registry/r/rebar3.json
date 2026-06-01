@@ -1,0 +1,34 @@
+{
+ "schemaVersion": 1,
+ "name": "rebar3",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-rebar3.git@main",
+ "description": "ReqPack Lua wrapper plugin for Erlang rebar3 dependency management via the rebar3 CLI",
+ "role": "package-manager",
+ "capabilities": [
+  "dependency-install",
+  "dependency-remove",
+  "dependency-update",
+  "dependency-query",
+  "project-manifest-edit"
+ ],
+ "ecosystemScopes": [
+  "erlang",
+  "rebar3",
+  "hexpm"
+ ],
+ "writeScopes": [
+  "user-home-subpath:.cache/reqpack/rebar3",
+  "project-file:rebar.config",
+  "project-file:rebar.lock",
+  "project-subpath:_build"
+ ],
+ "networkScopes": [
+  "repo.hex.pm",
+  "hex.pm"
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

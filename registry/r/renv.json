@@ -1,0 +1,19 @@
+{
+ "schemaVersion": 1,
+ "name": "renv",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-renv.git@main",
+ "description": "ReqPack Lua wrapper plugin for renv project libraries and shared package cache via Rscript",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "r",
+  "renv"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

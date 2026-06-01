@@ -1,0 +1,16 @@
+{
+ "schemaVersion": 1,
+ "name": "zig",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-zig.git@main",
+ "description": "ReqPack Lua wrapper plugin for Zig package fetching and dependency cache workflows",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

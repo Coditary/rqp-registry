@@ -1,0 +1,18 @@
+{
+ "schemaVersion": 1,
+ "name": "octave-forge",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-octave-forge.git@main",
+ "description": "ReqPack Lua wrapper plugin for GNU Octave Octave Forge packages via the built-in pkg command and package index",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "octave-forge"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

@@ -1,0 +1,16 @@
+{
+ "schemaVersion": 1,
+ "name": "ocx",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-ocx.git@main",
+ "description": "ReqPack Lua wrapper plugin for the OCX OpenCode component manager",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

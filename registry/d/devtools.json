@@ -1,0 +1,28 @@
+{
+ "schemaVersion": 1,
+ "name": "devtools",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-devtools.git@main",
+ "description": "ReqPack Lua wrapper plugin for R packages installed through devtools/remotes via Rscript with shared library and cache state",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "r",
+  "devtools",
+  "cran",
+  "bioc",
+  "github",
+  "gitlab",
+  "bitbucket",
+  "git",
+  "svn"
+ ],
+ "writeScopes": [],
+ "networkScopes": [
+  "*"
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

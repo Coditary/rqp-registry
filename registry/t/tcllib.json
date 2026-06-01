@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "name": "tcllib",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-tcllib.git@main",
+ "description": "ReqPack Lua wrapper plugin for Tcllib release installation via Tcllib installer.tcl",
+ "role": "package-manager",
+ "capabilities": [
+  "package-install",
+  "package-remove",
+  "package-update",
+  "package-query"
+ ],
+ "ecosystemScopes": [
+  "tcl",
+  "tcllib"
+ ],
+ "writeScopes": [
+  "user-home-subpath:.cache/reqpack/tcllib"
+ ],
+ "networkScopes": [
+  "https://api.github.com/repos/tcltk/tcllib/tags",
+  "https://codeload.github.com/tcltk/tcllib/tar.gz/refs/tags/"
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

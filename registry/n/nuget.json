@@ -1,0 +1,18 @@
+{
+ "schemaVersion": 1,
+ "name": "nuget",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-nuget.git@main",
+ "description": "ReqPack Lua wrapper plugin for NuGet CLI shared-cache package acquisition and query workflows",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "nuget"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

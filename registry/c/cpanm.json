@@ -1,0 +1,19 @@
+{
+ "schemaVersion": 1,
+ "name": "cpanm",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-cpanm.git@main",
+ "description": "ReqPack Lua wrapper plugin for Perl cpanm using a plugin-owned cpanm home and local::lib install root",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "cpan",
+  "perl"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

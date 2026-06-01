@@ -1,0 +1,21 @@
+{
+ "schemaVersion": 1,
+ "name": "gh",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-gh.git@main",
+ "description": "ReqPack Lua wrapper plugin for GitHub CLI artifacts including extensions, managed skills, and CodeQL",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "github-cli",
+  "gh-extension",
+  "gh-skill",
+  "codeql"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

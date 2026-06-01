@@ -1,0 +1,20 @@
+{
+ "schemaVersion": 1,
+ "name": "jbang",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-jbang.git@main",
+ "description": "Thin ReqPack wrapper bundle for managing JBang app installs and alias-based command discovery",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "jbang",
+  "java",
+  "jvm"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

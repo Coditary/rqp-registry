@@ -1,0 +1,26 @@
+{
+ "schemaVersion": 1,
+ "name": "corral",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-corral.git@main",
+ "description": "ReqPack Lua wrapper plugin for Pony Corral dependency bundles with a shared cache bundle",
+ "role": "package-manager",
+ "capabilities": [
+  "package-install",
+  "package-remove",
+  "package-update",
+  "package-query"
+ ],
+ "ecosystemScopes": [
+  "pony",
+  "corral"
+ ],
+ "writeScopes": [
+  "user-home-subpath:.cache/reqpack/corral"
+ ],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

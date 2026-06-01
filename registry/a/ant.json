@@ -1,0 +1,33 @@
+{
+ "schemaVersion": 1,
+ "name": "ant",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-ant.git@main",
+ "description": "ReqPack Lua wrapper plugin for legacy Apache Ant and Apache Ivy dependency management",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "ant",
+  "ivy",
+  "jvm",
+  "maven"
+ ],
+ "writeScopes": [
+  {
+   "kind": "plugin-subpath",
+   "path": ".reqpack-data"
+  }
+ ],
+ "networkScopes": [
+  "repo1.maven.org",
+  "repo.maven.apache.org",
+  "search.maven.org"
+ ],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

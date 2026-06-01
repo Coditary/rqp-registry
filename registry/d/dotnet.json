@@ -1,0 +1,22 @@
+{
+ "schemaVersion": 1,
+ "name": "dotnet",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-dotnet.git@main",
+ "description": "ReqPack Lua wrapper plugin for dotnet Q# tools, templates, and package workflows",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "dotnet",
+  "nuget",
+  "qsharp"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": [
+  "qsharp"
+ ]
+}

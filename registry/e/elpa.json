@@ -1,0 +1,19 @@
+{
+ "schemaVersion": 1,
+ "name": "elpa",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-elpa.git@main",
+ "description": "ReqPack Lua wrapper plugin for GNU ELPA and NonGNU ELPA packages through Emacs package.el batch mode",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "elpa",
+  "emacs-lisp"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

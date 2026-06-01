@@ -1,0 +1,16 @@
+{
+ "schemaVersion": 1,
+ "name": "sdkman",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-sdkman.git@main",
+ "description": "ReqPack Lua wrapper plugin for SDKMAN candidates and installed candidate versions",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

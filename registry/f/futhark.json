@@ -1,0 +1,23 @@
+{
+ "schemaVersion": 1,
+ "name": "futhark",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-futhark.git@main",
+ "description": "ReqPack Lua wrapper plugin for Futhark project dependencies managed through futhark pkg",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "futhark"
+ ],
+ "writeScopes": [],
+ "networkScopes": [
+  "https://github.com/"
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

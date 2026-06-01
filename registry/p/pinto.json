@@ -1,0 +1,20 @@
+{
+ "schemaVersion": 1,
+ "name": "pinto",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-pinto.git@main",
+ "description": "ReqPack Lua wrapper plugin for Pinto using a shared plugin-owned repository root and stack-aware package curation",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "cpan",
+  "perl",
+  "pinto"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

@@ -1,0 +1,16 @@
+{
+ "schemaVersion": 1,
+ "name": "meson",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-meson.git@main",
+ "description": "ReqPack Lua wrapper plugin for Meson WrapDB subproject management with shared ReqPack-scoped workspace and package cache roots",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

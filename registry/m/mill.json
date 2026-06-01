@@ -1,0 +1,16 @@
+{
+ "schemaVersion": 1,
+ "name": "mill",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-mill.git@main",
+ "description": "ReqPack Lua wrapper plugin for versioned Mill launcher installs with shared ReqPack-scoped cache roots",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "name": "pub",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-pub.git@main",
+ "description": "ReqPack Lua wrapper plugin for Dart pub global packages via the dart CLI and pub.dev API",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "pub.dev",
+  "dart"
+ ],
+ "writeScopes": [
+  {
+   "kind": "user-home-subpath",
+   "value": ".cache/reqpack/pub"
+  }
+ ],
+ "networkScopes": [
+  {
+   "host": "pub.dev",
+   "scheme": "https",
+   "pathPrefix": "/"
+  },
+  {
+   "host": "storage.googleapis.com",
+   "scheme": "https",
+   "pathPrefix": "/"
+  }
+ ],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

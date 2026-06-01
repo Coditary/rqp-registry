@@ -1,0 +1,16 @@
+{
+ "schemaVersion": 1,
+ "name": "zinit",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-zinit.git@main",
+ "description": "ReqPack Lua wrapper plugin for zinit-managed zsh plugins and snippets",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

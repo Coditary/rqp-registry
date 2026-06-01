@@ -1,0 +1,25 @@
+{
+ "schemaVersion": 1,
+ "name": "fpm",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-fpm.git@main",
+ "description": "ReqPack Lua wrapper plugin for Fortran Package Manager registry dependency caching and local project installs",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "fortran",
+  "fpm",
+  "fpm-registry"
+ ],
+ "writeScopes": [],
+ "networkScopes": [
+  "https://github.com/fortran-lang/fpm-registry/raw/master/index.json"
+ ],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

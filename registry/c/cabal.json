@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "name": "cabal",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-cabal.git@main",
+ "description": "ReqPack Lua wrapper plugin for Haskell Cabal package and executable management via the cabal CLI",
+ "role": "package-manager",
+ "capabilities": [
+  "package-install",
+  "package-remove",
+  "package-update",
+  "package-query"
+ ],
+ "ecosystemScopes": [
+  "haskell",
+  "cabal",
+  "hackage"
+ ],
+ "writeScopes": [
+  "user-home-subpath:.cache/reqpack/cabal"
+ ],
+ "networkScopes": [
+  "hackage.haskell.org"
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

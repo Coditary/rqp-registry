@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "name": "microdnf",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-microdnf.git@main",
+ "description": "ReqPack Lua wrapper plugin for microdnf and RPM packages",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "rpm"
+ ],
+ "writeScopes": [
+  {
+   "kind": "temp"
+  },
+  {
+   "kind": "user-home-subpath",
+   "value": ".cache/reqpack/microdnf"
+  }
+ ],
+ "networkScopes": [],
+ "privilegeLevel": "sudo",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

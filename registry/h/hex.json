@@ -1,0 +1,33 @@
+{
+ "schemaVersion": 1,
+ "name": "hex",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-hex.git@main",
+ "description": "ReqPack Lua wrapper plugin for Hex package management in Elixir Mix projects via Hex and Mix CLI tasks",
+ "role": "package-manager",
+ "capabilities": [
+  "dependency-install",
+  "dependency-remove",
+  "dependency-update",
+  "dependency-query",
+  "project-manifest-edit"
+ ],
+ "ecosystemScopes": [
+  "hexpm",
+  "elixir"
+ ],
+ "writeScopes": [
+  "user-home-subpath:.cache/reqpack/hex",
+  "project-file:mix.exs",
+  "project-file:mix.lock",
+  "project-subpath:deps",
+  "project-subpath:_build"
+ ],
+ "networkScopes": [
+  "hex.pm"
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

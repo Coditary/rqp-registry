@@ -1,0 +1,20 @@
+{
+ "schemaVersion": 1,
+ "name": "texlive",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-texlive.git@main",
+ "description": "ReqPack Lua wrapper plugin for native TeX Live package management via tlmgr",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "texlive",
+  "tex",
+  "latex"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

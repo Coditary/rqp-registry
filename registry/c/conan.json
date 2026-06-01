@@ -1,0 +1,34 @@
+{
+ "schemaVersion": 1,
+ "name": "conan",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-conan.git@main",
+ "description": "ReqPack Lua wrapper plugin for Conan v2 recipes and package cache operations",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "conan",
+  "cpp"
+ ],
+ "writeScopes": [
+  {
+   "kind": "user-home-subpath",
+   "value": ".conan2"
+  }
+ ],
+ "networkScopes": [
+  {
+   "scheme": "https"
+  },
+  {
+   "scheme": "http"
+  }
+ ],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

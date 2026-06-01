@@ -1,0 +1,20 @@
+{
+ "schemaVersion": 1,
+ "name": "eupm",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-eupm.git@main",
+ "description": "ReqPack Lua wrapper plugin for Euphoria packages through the eupm command line",
+ "role": "package-manager",
+ "capabilities": [
+  "exec"
+ ],
+ "ecosystemScopes": [
+  "euphoria"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

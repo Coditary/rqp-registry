@@ -1,0 +1,33 @@
+{
+ "schemaVersion": 1,
+ "name": "shards",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-shards.git@main",
+ "description": "ReqPack Lua wrapper plugin for Crystal shards project dependencies via shard.yml editing and shards CLI",
+ "role": "package-manager",
+ "capabilities": [
+  "dependency-install",
+  "dependency-remove",
+  "dependency-update",
+  "dependency-query",
+  "project-manifest-edit",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "crystal",
+  "shards.info"
+ ],
+ "writeScopes": [
+  "user-home-subpath:.cache/reqpack/shards",
+  "project-file:shard.yml",
+  "project-file:shard.lock",
+  "project-subpath:lib"
+ ],
+ "networkScopes": [
+  "https://shards.info"
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

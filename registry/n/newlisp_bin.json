@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "name": "newlisp_bin",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-newlisp_bin.git@main",
+ "description": "ReqPack Lua wrapper plugin for official newLISP binary and source releases",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "newlisp"
+ ],
+ "writeScopes": [
+  "user-home-subpath:.local/share/reqpack/newlisp_bin",
+  "user-home-subpath:.cache/reqpack/newlisp_bin"
+ ],
+ "networkScopes": [
+  "https://www.newlisp.org/",
+  "https://sourceforge.net/projects/newlisp/files/"
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": [
+  "newlisp"
+ ]
+}

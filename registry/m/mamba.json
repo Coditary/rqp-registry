@@ -1,0 +1,35 @@
+{
+ "schemaVersion": 1,
+ "name": "mamba",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-mamba.git@main",
+ "description": "ReqPack Lua wrapper plugin for Mamba and Conda-compatible packages",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "conda",
+  "mamba"
+ ],
+ "writeScopes": [
+  {
+   "kind": "user-home-subpath",
+   "value": ".mamba"
+  },
+  {
+   "kind": "user-home-subpath",
+   "value": ".conda"
+  },
+  {
+   "kind": "user-home-subpath",
+   "value": ".cache/conda"
+  }
+ ],
+ "networkScopes": [],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

@@ -1,13 +1,14 @@
 {
  "schemaVersion": 1,
- "name": "dnf",
- "version": "2.0.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-dnf.git@main",
- "description": "Fedora DNF Manager",
+ "name": "atoms",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-atoms.git@main",
+ "description": "ReqPack Lua wrapper plugin for Scilab ATOMS toolboxes via batch Scilab CLI",
  "role": "package-manager",
  "capabilities": [],
  "ecosystemScopes": [
-  "rpm"
+  "scilab",
+  "atoms"
  ],
  "writeScopes": [],
  "networkScopes": [],

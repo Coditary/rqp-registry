@@ -1,0 +1,20 @@
+{
+ "schemaVersion": 1,
+ "name": "carbon",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-carbon.git@main",
+ "description": "ReqPack Lua wrapper plugin for Carbon Kubernetes package operations via the Carbon CLI",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "carbon",
+  "docker",
+  "kubernetes"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

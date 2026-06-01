@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "name": "getit",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-getit.git@main",
+ "description": "ReqPack Lua wrapper plugin for Embarcadero GetIt packages via GetItCmd.exe",
+ "role": "package-manager",
+ "capabilities": [
+  "exec"
+ ],
+ "ecosystemScopes": [
+  "delphi",
+  "rad-studio",
+  "getit"
+ ],
+ "writeScopes": [
+  {
+   "kind": "user-home-subpath",
+   "path": "Documents/Embarcadero/Studio"
+  }
+ ],
+ "networkScopes": [
+  "*"
+ ],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

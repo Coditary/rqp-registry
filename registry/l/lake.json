@@ -1,0 +1,40 @@
+{
+ "schemaVersion": 1,
+ "name": "lake",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-lake.git@main",
+ "description": "ReqPack Lua wrapper plugin for Lean Lake workspace dependency management and Reservoir package discovery",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network",
+  "filesystem.read",
+  "filesystem.write"
+ ],
+ "ecosystemScopes": [
+  "lean",
+  "lake",
+  "reservoir"
+ ],
+ "writeScopes": [
+  {
+   "kind": "user-home-subpath",
+   "value": ".local/share/reqpack/lake"
+  },
+  {
+   "kind": "user-home-subpath",
+   "value": ".cache/reqpack/lake"
+  }
+ ],
+ "networkScopes": [
+  {
+   "host": "reservoir.lean-lang.org",
+   "scheme": "https",
+   "pathPrefix": "/"
+  }
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

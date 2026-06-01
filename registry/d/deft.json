@@ -1,13 +1,14 @@
 {
  "schemaVersion": 1,
- "name": "dnf",
- "version": "2.0.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-dnf.git@main",
- "description": "Fedora DNF Manager",
+ "name": "deft",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-deft.git@main",
+ "description": "ReqPack Lua wrapper plugin for Dylan packages via the Open Dylan Deft CLI",
  "role": "package-manager",
  "capabilities": [],
  "ecosystemScopes": [
-  "rpm"
+  "dylan",
+  "deft"
  ],
  "writeScopes": [],
  "networkScopes": [],

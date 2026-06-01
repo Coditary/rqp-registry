@@ -1,0 +1,27 @@
+{
+ "schemaVersion": 1,
+ "name": "spago",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-spago.git@main",
+ "description": "ReqPack Lua wrapper plugin for Spago workspace dependency management and PureScript Registry queries",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "purescript",
+  "spago"
+ ],
+ "writeScopes": [
+  "project-subpath:.spago",
+  "project-subpath:spago.lock",
+  "project-subpath:spago.yaml",
+  "user-home-subpath:.cache/spago-nodejs"
+ ],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "name": "teacup",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-teacup.git@main",
+ "description": "ReqPack Lua wrapper plugin for Teacup Tcl package management via Teacup CLI",
+ "role": "package-manager",
+ "capabilities": [
+  "package-install",
+  "package-remove",
+  "package-update",
+  "package-query"
+ ],
+ "ecosystemScopes": [
+  "tcl",
+  "teacup",
+  "teapot"
+ ],
+ "writeScopes": [
+  "user-home-subpath:.cache/reqpack/teacup"
+ ],
+ "networkScopes": [
+  "configured-teapot-archives"
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

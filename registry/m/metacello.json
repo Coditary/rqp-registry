@@ -1,0 +1,20 @@
+{
+ "schemaVersion": 1,
+ "name": "metacello",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-metacello.git@main",
+ "description": "ReqPack Lua wrapper plugin for Pharo projects managed through Metacello",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "pharo",
+  "smalltalk",
+  "metacello"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

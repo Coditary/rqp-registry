@@ -1,0 +1,40 @@
+{
+ "schemaVersion": 1,
+ "name": "pnpm",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-pnpm.git@main",
+ "description": "ReqPack Lua wrapper plugin for pnpm project and global package management via the pnpm CLI",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "npm",
+  "pnpm"
+ ],
+ "writeScopes": [
+  {
+   "kind": "temp"
+  },
+  {
+   "kind": "user-home-subpath",
+   "value": ".local/share/pnpm"
+  },
+  {
+   "kind": "user-home-subpath",
+   "value": ".pnpm-store"
+  }
+ ],
+ "networkScopes": [
+  {
+   "host": "registry.npmjs.org",
+   "scheme": "https",
+   "pathPrefix": "/"
+  }
+ ],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

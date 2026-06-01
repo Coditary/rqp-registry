@@ -1,0 +1,36 @@
+{
+ "schemaVersion": 1,
+ "name": "cocoapods",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-cocoapods.git@main",
+ "description": "ReqPack Lua wrapper plugin for CocoaPods project dependencies and podspec metadata",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "cocoapods",
+  "ios",
+  "swift",
+  "objc"
+ ],
+ "writeScopes": [
+  {
+   "kind": "user-home-subpath",
+   "value": ".cache/reqpack/cocoapods"
+  }
+ ],
+ "networkScopes": [
+  {
+   "scheme": "https"
+  },
+  {
+   "scheme": "http"
+  }
+ ],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}

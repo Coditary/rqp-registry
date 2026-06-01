@@ -1,0 +1,45 @@
+{
+ "schemaVersion": 1,
+ "name": "foundry",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/rqp-plugin-foundry.git@main",
+ "description": "ReqPack Lua wrapper plugin for Foundry forge dependency management in Solidity projects",
+ "role": "package-manager",
+ "capabilities": [
+  "exec",
+  "network"
+ ],
+ "ecosystemScopes": [
+  "foundry",
+  "solidity",
+  "ethereum"
+ ],
+ "writeScopes": [
+  "project-subpath:lib",
+  "project-subpath:cache",
+  "project-subpath:.gitmodules",
+  "project-subpath:.git/config",
+  "user-home-subpath:.foundry"
+ ],
+ "networkScopes": [
+  {
+   "scheme": "https"
+  },
+  {
+   "scheme": "http"
+  },
+  {
+   "scheme": "ssh"
+  },
+  {
+   "scheme": "git"
+  },
+  {
+   "scheme": "file"
+  }
+ ],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
+}
