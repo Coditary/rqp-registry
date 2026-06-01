@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "name": "mcpm",
+  "version": "0.1.0",
+  "source": "git+https://github.com/Coditary/rqp-plugin-mcpm.git@main",
+  "description": "ReqPack Lua wrapper plugin for MCPM-managed Model Context Protocol servers",
+  "role": "package-manager",
+  "capabilities": [],
+  "ecosystemScopes": [],
+  "writeScopes": [],
+  "networkScopes": [],
+  "privilegeLevel": "none",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": [
+    "mcp-manager",
+    "mcp-server-manager"
+  ]
+}
