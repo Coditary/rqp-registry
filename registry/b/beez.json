@@ -1,16 +1,21 @@
 {
   "schemaVersion": 1,
   "name": "beez",
-  "version": "1.0.2",
-  "source": "https://github.com/Coditary/Beez/releases/latest/download/index.json",
-  "description": "Beez build and task orchestrator with Lua DSL, caching, and parallel execution.",
-  "role": "package",
-  "targetSystem": "rqp",
-  "capabilities": [],
-  "ecosystemScopes": ["rqp"],
-  "writeScopes": [],
-  "networkScopes": [],
-  "privilegeLevel": "none",
+  "version": "1.0.3",
+  "source": "git+https://github.com/Coditary/Beez.git@main",
+  "description": "ReqPack package manager for Beez workflow plugins (.rqp packages, catalog, and git fallbacks).",
+  "role": "package-manager",
+  "capabilities": ["exec", "network"],
+  "ecosystemScopes": ["beez"],
+  "writeScopes": [
+    { "kind": "user-home-subpath", "value": ".cache/beez" }
+  ],
+  "networkScopes": [
+    "github.com",
+    "raw.githubusercontent.com",
+    "api.github.com"
+  ],
+  "privilegeLevel": "user",
   "scriptSha256": "",
   "bootstrapSha256": "",
   "aliases": []
