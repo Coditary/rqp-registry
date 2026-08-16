@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "beez",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "source": "git+https://github.com/Coditary/beez-registry.git@main",
   "description": "ReqPack package manager for Beez workflow plugins (.rqp packages, catalog, and git fallbacks).",
   "role": "package-manager",
