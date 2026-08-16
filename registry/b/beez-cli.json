@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "beez-cli",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "source": "https://raw.githubusercontent.com/Coditary/beez-registry/main/beez-cli-index.json",
   "description": "Beez build and task orchestrator CLI packaged as ReqPack artifact.",
   "role": "package",
