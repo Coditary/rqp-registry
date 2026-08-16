@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "beez-cli",
   "version": "1.0.4",
-  "source": "https://raw.githubusercontent.com/Coditary/beez-registry/main/beez-cli-index.json",
+  "source": "https://raw.githubusercontent.com/Coditary/beez-registry/a8f2c51/beez-cli-index.json",
   "description": "Beez build and task orchestrator CLI packaged as ReqPack artifact.",
   "role": "package",
   "targetSystem": "rqp",
