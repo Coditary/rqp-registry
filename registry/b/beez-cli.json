@@ -13,5 +13,5 @@
   "privilegeLevel": "none",
   "scriptSha256": "",
   "bootstrapSha256": "",
-  "aliases": ["beez"]
+  "aliases": []
 }
