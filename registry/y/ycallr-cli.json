@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "name": "ycallr-cli",
+  "version": "0.1.1",
+  "source": "https://raw.githubusercontent.com/Coditary/ycallr-registry/main/ycallr-cli-index.json",
+  "description": "ycallr YAML API caller CLI packaged as ReqPack artifact.",
+  "role": "package",
+  "targetSystem": "rqp",
+  "capabilities": [],
+  "ecosystemScopes": ["rqp"],
+  "writeScopes": [],
+  "networkScopes": [],
+  "privilegeLevel": "none",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}

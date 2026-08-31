@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "name": "ycallr",
+  "version": "0.1.0",
+  "source": "git+https://github.com/Coditary/rqp-plugin-ycallr.git@main",
+  "description": "ReqPack package manager for ycallr API profile catalogs and .rqp installs.",
+  "role": "package-manager",
+  "capabilities": ["exec", "network"],
+  "ecosystemScopes": ["ycallr"],
+  "writeScopes": [
+    { "kind": "user-home-subpath", "value": ".cache/ycallr" }
+  ],
+  "networkScopes": [
+    "github.com",
+    "raw.githubusercontent.com",
+    "api.github.com"
+  ],
+  "privilegeLevel": "user",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}
