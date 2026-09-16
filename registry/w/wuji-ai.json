@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "name": "wuji-ai-cli",
+  "name": "wuji-ai",
   "version": "0.1.0",
-  "source": "https://raw.githubusercontent.com/Coditary/wuji-registry/main/wuji-ai-cli-index.json",
+  "source": "https://raw.githubusercontent.com/Coditary/wuji-registry/main/wuji-ai-index.json",
   "description": "Wuji CLI frontend (wuji-ai) packaged as ReqPack artifact.",
   "role": "package",
   "targetSystem": "rqp",
@@ -13,5 +13,5 @@
   "privilegeLevel": "none",
   "scriptSha256": "",
   "bootstrapSha256": "",
-  "aliases": []
+  "aliases": ["wuji-ai-cli"]
 }
