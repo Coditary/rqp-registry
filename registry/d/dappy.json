@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "dappy",
+  "version": "0.1.0",
+  "source": "git+https://github.com/Coditary/rqp-plugin-dappy.git@main",
+  "description": "ReqPack package manager for optional Dappy adapter and RSP target manifests.",
+  "role": "package-manager",
+  "capabilities": ["exec", "network"],
+  "ecosystemScopes": ["dappy"],
+  "writeScopes": [
+    { "kind": "user-home-subpath", "value": ".cache/dappy" },
+    { "kind": "user-home-subpath", "value": ".config/dap" }
+  ],
+  "networkScopes": [
+    "github.com",
+    "raw.githubusercontent.com",
+    "api.github.com"
+  ],
+  "privilegeLevel": "user",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": []
+}
