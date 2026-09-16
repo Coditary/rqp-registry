@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "name": "dappy-cli",
+  "version": "0.1.1",
+  "source": "https://raw.githubusercontent.com/Coditary/dappy-registry/main/dappy-cli-index.json",
+  "description": "Dappy debug adapter proxy CLI packaged as ReqPack artifact.",
+  "role": "package",
+  "targetSystem": "rqp",
+  "capabilities": [],
+  "ecosystemScopes": ["rqp"],
+  "writeScopes": [],
+  "networkScopes": [],
+  "privilegeLevel": "none",
+  "scriptSha256": "",
+  "bootstrapSha256": "",
+  "aliases": ["dappy"]
+}
