@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "wasm-bindgen",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-wasm-bindgen.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for wasm-bindgen-cli installation and cached local Wasm binding generation",
  "role": "package-manager",
  "capabilities": [

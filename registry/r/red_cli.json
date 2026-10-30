@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "red_cli",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-red_cli.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for managing local red-cli projects through shared tracking and red.config.json metadata",
  "role": "package-manager",
  "capabilities": [],

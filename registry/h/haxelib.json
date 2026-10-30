@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "haxelib",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-haxelib.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Haxe libraries managed through Haxelib",
  "role": "package-manager",
  "capabilities": [],

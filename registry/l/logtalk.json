@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "logtalk",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-logtalk.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Logtalk packs via the Logtalk packs tool",
  "role": "package-manager",
  "capabilities": [

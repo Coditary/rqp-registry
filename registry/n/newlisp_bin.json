@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "newlisp_bin",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-newlisp_bin.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for official newLISP binary and source releases",
  "role": "package-manager",
  "capabilities": [

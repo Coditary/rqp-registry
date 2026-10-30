@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "deft",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-deft.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Dylan packages via the Open Dylan Deft CLI",
  "role": "package-manager",
  "capabilities": [],

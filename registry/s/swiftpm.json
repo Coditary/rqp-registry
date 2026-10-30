@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "swiftpm",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-swiftpm.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Swift Package Manager using a shared managed workspace",
  "role": "package-manager",
  "capabilities": [],

@@ -12,15 +12,12 @@ This repository stores versioned JSON metadata for main plugins and registry-bac
 - `CONTRIBUTION.md` contribution workflow
 - `LICENCE` repository licence
 
-## First entries
+## Wrapper plugin sources
 
-- `dnf`
-- `maven`
-- `java`
-- `prebyte`
-- `sys`
+Most ecosystem wrapper plugins (`npm`, `dnf`, `cargo`, …) are stored in the monorepo [Coditary/reqpack-plugins](https://github.com/Coditary/reqpack-plugins). Registry entries point at that repository; ReqPack resolves the plugin subdirectory inside the clone (letter-grouped layout, e.g. `n/npm/`).
 
-## Registry shape
+Standalone registry entries (proxies, CLI indexes, built-ins) keep their own `source` URLs.
+
 
 One file per main entry:
 

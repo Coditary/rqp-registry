@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "yarn",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-yarn.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Yarn Classic global npm packages and npm registry metadata",
  "role": "package-manager",
  "capabilities": [],

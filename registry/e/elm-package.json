@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "elm-package",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-elm-package.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for legacy elm-package project dependencies and package.elm-lang.org metadata",
  "role": "package-manager",
  "capabilities": [],

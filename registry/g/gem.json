@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "gem",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-gem.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for RubyGems using a plugin-owned GEM_HOME and shared spec cache",
  "role": "package-manager",
  "capabilities": [],

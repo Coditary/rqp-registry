@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "mise",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-mise.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for mise-managed tool versions with shared ReqPack-scoped state",
  "role": "package-manager",
  "capabilities": [],

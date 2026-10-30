@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "conan",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-conan.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Conan v2 recipes and package cache operations",
  "role": "package-manager",
  "capabilities": [

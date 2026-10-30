@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "hex",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-hex.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Hex package management in Elixir Mix projects via Hex and Mix CLI tasks",
  "role": "package-manager",
  "capabilities": [

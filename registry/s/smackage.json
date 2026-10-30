@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "smackage",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-smackage.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Standard ML packages managed by smackage in SMACKAGE_HOME",
  "role": "package-manager",
  "capabilities": [],

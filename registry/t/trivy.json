@@ -1,19 +1,34 @@
 {
-  "schemaVersion": 1,
-  "name": "trivy",
-  "version": "0.1.0",
-  "source": "git+https://github.com/Coditary/rqp-plugin-trivy.git@main",
-  "description": "ReqPack security-provider plugin for importing Trivy vulnerability database advisories into ReqPack shared vulnerability indexes",
-  "role": "security-provider",
-  "capabilities": ["sync"],
-  "ecosystemScopes": ["maven", "cargo", "deb", "rpm"],
-  "writeScopes": [],
-  "networkScopes": [
-    { "host": "ghcr.io", "scheme": "https", "pathPrefix": "/v2/aquasecurity/trivy-db/" },
-    { "host": "mirror.gcr.io", "scheme": "https", "pathPrefix": "/v2/aquasec/trivy-db/" }
-  ],
-  "privilegeLevel": "none",
-  "scriptSha256": "",
-  "bootstrapSha256": "",
-  "aliases": []
+ "schemaVersion": 1,
+ "name": "trivy",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
+ "description": "ReqPack security-provider plugin for importing Trivy vulnerability database advisories into ReqPack shared vulnerability indexes",
+ "role": "security-provider",
+ "capabilities": [
+  "sync"
+ ],
+ "ecosystemScopes": [
+  "maven",
+  "cargo",
+  "deb",
+  "rpm"
+ ],
+ "writeScopes": [],
+ "networkScopes": [
+  {
+   "host": "ghcr.io",
+   "scheme": "https",
+   "pathPrefix": "/v2/aquasecurity/trivy-db/"
+  },
+  {
+   "host": "mirror.gcr.io",
+   "scheme": "https",
+   "pathPrefix": "/v2/aquasec/trivy-db/"
+  }
+ ],
+ "privilegeLevel": "none",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
 }

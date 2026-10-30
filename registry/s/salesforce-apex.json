@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "salesforce-apex",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-salesforce-apex.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Salesforce CLI Apex package workflows",
  "role": "package-manager",
  "capabilities": [],

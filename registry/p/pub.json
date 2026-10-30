@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "pub",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-pub.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Dart pub global packages via the dart CLI and pub.dev API",
  "role": "package-manager",
  "capabilities": [

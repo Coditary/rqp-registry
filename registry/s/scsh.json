@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "scsh",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-scsh.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for scsh packages via scsh-install-pkg with ReqPack-managed state and cached catalog queries",
  "role": "package-manager",
  "capabilities": [

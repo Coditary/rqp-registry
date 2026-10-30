@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "elpa",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-elpa.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for GNU ELPA and NonGNU ELPA packages through Emacs package.el batch mode",
  "role": "package-manager",
  "capabilities": [],

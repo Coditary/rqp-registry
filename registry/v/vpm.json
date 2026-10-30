@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "vpm",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-vpm.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for V language package management through the V CLI and shared VMODULES roots",
  "role": "package-manager",
  "capabilities": [],

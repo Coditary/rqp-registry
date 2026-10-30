@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "cocoapods",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-cocoapods.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for CocoaPods project dependencies and podspec metadata",
  "role": "package-manager",
  "capabilities": [

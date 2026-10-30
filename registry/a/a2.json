@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "a2",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-a2.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for managed A2 Oberon distribution profiles",
  "role": "package-manager",
  "capabilities": [],

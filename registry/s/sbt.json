@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "sbt",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-sbt.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for synthetic sbt dependency state and shared resolver caches",
  "role": "package-manager",
  "capabilities": [],

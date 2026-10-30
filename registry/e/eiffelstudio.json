@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "eiffelstudio",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-eiffelstudio.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for EiffelStudio packages through the iron command line tool",
  "role": "package-manager",
  "capabilities": [

@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "kpm",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-kpm.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for the Kotlin Package Manager using a jar launcher, project manifests, and Maven Central metadata",
  "role": "package-manager",
  "capabilities": [],

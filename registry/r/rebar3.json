@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "rebar3",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-rebar3.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Erlang rebar3 dependency management via the rebar3 CLI",
  "role": "package-manager",
  "capabilities": [

@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "tcllib",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-tcllib.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Tcllib release installation via Tcllib installer.tcl",
  "role": "package-manager",
  "capabilities": [

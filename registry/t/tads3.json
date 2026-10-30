@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "tads3",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-tads3.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for TADS 3 libraries from IF Archive",
  "role": "package-manager",
  "capabilities": [

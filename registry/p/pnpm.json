@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "pnpm",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-pnpm.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for pnpm project and global package management via the pnpm CLI",
  "role": "package-manager",
  "capabilities": [

@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "carthage",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-carthage.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Carthage project dependencies via Cartfile and Cartfile.resolved",
  "role": "package-manager",
  "capabilities": [],

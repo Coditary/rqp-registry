@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "raco",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-raco.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Racket package management via the raco pkg CLI",
  "role": "package-manager",
  "capabilities": [],

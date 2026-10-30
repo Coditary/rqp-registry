@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "xbps",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-xbps.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Void Linux XBPS packages via native XBPS tools",
  "role": "package-manager",
  "capabilities": [],

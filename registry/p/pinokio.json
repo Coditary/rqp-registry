@@ -1,16 +1,18 @@
 {
-  "schemaVersion": 1,
-  "name": "pinokio",
-  "version": "0.1.0",
-  "source": "git+https://github.com/Coditary/rqp-plugin-pinokio.git@main",
-  "description": "ReqPack Lua wrapper plugin for Pinokio app installs and script repository management",
-  "role": "package-manager",
-  "capabilities": [],
-  "ecosystemScopes": ["pinokio"],
-  "writeScopes": [],
-  "networkScopes": [],
-  "privilegeLevel": "user",
-  "scriptSha256": "",
-  "bootstrapSha256": "",
-  "aliases": []
+ "schemaVersion": 1,
+ "name": "pinokio",
+ "version": "0.1.0",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
+ "description": "ReqPack Lua wrapper plugin for Pinokio app installs and script repository management",
+ "role": "package-manager",
+ "capabilities": [],
+ "ecosystemScopes": [
+  "pinokio"
+ ],
+ "writeScopes": [],
+ "networkScopes": [],
+ "privilegeLevel": "user",
+ "scriptSha256": "",
+ "bootstrapSha256": "",
+ "aliases": []
 }

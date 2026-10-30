@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "ctan",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-ctan.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for TeX Live tlmgr in user mode against CTAN-compatible repositories",
  "role": "package-manager",
  "capabilities": [],

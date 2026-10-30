@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "clasp",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-clasp.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Google Apps Script project management via the clasp CLI",
  "role": "package-manager",
  "capabilities": [],

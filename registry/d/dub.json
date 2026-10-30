@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "dub",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-dub.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for DUB shared packages and plugin-owned D dependencies",
  "role": "package-manager",
  "capabilities": [],

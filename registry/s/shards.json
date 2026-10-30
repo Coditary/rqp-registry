@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "shards",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-shards.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Crystal shards project dependencies via shard.yml editing and shards CLI",
  "role": "package-manager",
  "capabilities": [

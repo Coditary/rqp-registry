@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "stack",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-stack.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Haskell Stack installs, local Stack projects, and Hackage package queries",
  "role": "package-manager",
  "capabilities": [

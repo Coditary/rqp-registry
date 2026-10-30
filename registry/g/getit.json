@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "getit",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-getit.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Embarcadero GetIt packages via GetItCmd.exe",
  "role": "package-manager",
  "capabilities": [

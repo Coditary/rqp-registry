@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "uv",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-uv.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Astral uv global tool installs and PyPI-backed package queries",
  "role": "package-manager",
  "capabilities": [],

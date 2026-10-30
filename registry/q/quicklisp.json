@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "quicklisp",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-quicklisp.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Quicklisp Common Lisp systems via batch Lisp execution",
  "role": "package-manager",
  "capabilities": [],

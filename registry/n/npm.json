@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "npm",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-npm.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for globally managed npm packages via the npm CLI",
  "role": "package-manager",
  "capabilities": [

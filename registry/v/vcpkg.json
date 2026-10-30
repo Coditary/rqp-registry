@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "vcpkg",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-vcpkg.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for vcpkg classic-mode package operations",
  "role": "package-manager",
  "capabilities": [],

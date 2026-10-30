@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "x10build",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-x10build.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for building and managing the X10 toolchain from upstream releases or local source trees",
  "role": "package-manager",
  "capabilities": [],

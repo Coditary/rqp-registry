@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "guix",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-guix.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "Thin ReqPack wrapper bundle for managing GNU Guix packages in a ReqPack-owned profile",
  "role": "package-manager",
  "capabilities": [],

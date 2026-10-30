@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "leiningen",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-leiningen.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for Leiningen search and local Maven repository artifact management",
  "role": "package-manager",
  "capabilities": [

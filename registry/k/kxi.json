@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "name": "kxi",
  "version": "0.1.0",
- "source": "git+https://github.com/Coditary/rqp-plugin-kxi.git@main",
+ "source": "git+https://github.com/Coditary/reqpack-plugins.git@main",
  "description": "ReqPack Lua wrapper plugin for local q/kdb+ package installs and package-library queries via the KX Insights CLI",
  "role": "package-manager",
  "capabilities": [],
